@@ -1,0 +1,92 @@
+/* Đặt cấu hình cơ bản */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* Thanh menu ngang */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f44336;
+  color: white;
+  padding: 10px 20px;
+}
+
+.navbar .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar .menu {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+.navbar .menu li a {
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+  transition: color 0.3s;
+}
+
+.navbar .menu li a:hover {
+  color: #ffdd57;
+}
+
+/* Phần poster minh họa */
+.poster {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 20px;
+  background-color: #ffecec;
+}
+
+.poster img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.poster-text h1 {
+  font-size: 2.5rem;
+  color: #f44336;
+}
+
+.poster-text p {
+  font-size: 1.2rem;
+  margin: 15px 0;
+  color: #555;
+}
+
+.poster-text button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: white;
+  background-color: #f44336;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.poster-text button:hover {
+  background-color: #d32f2f;
+}
+
+.logo img {
+  max-height: 50px; /* Điều chỉnh kích thước phù hợp */
+  width: auto;
+}
